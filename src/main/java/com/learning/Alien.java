@@ -12,7 +12,7 @@ public class Alien {
     private int aid;
     private String aname;
     private String tech;
-    @OneToMany
+    @OneToMany(mappedBy = "alien")
     private List<Laptop> laptops;
 
     public int getAid() {
