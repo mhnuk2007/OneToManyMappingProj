@@ -18,6 +18,8 @@ public class Main {
         l1.setModel("Latitude");
         l1.setRam(8);
 
+
+
         Laptop l2 = new Laptop();
         l2.setLid(2);
         l2.setBrand("HP");
@@ -42,6 +44,10 @@ public class Main {
         a2.setAname("Honey");
         a2.setTech("Java");
         a2.setLaptops(Arrays.asList(l2,l3));
+
+        l1.setAlien(a1);
+        l2.setAlien(a2);
+        l3.setAlien(a2);
 
 
 
